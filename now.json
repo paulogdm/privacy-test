@@ -1,0 +1,9 @@
+{
+  "name": "privacy",
+  "version": 2,
+  "builds": [
+    { "src": "*.js", "use": "@now/node" },
+    { "src": "**/**.jpg", "use": "@now/static" }
+  ],
+  "public": false
+}
